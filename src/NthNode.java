@@ -62,8 +62,8 @@ public class NthNode {
         d.next =e;
 
         display(a);
-//        Node res = getNthNode(a,3);
-//        System.out.println(res.data);
+        Node res = getNthNode(a,3);
+        System.out.println(res.data);
         a=deleteNthNode(a,1);
         display(a);
     }
